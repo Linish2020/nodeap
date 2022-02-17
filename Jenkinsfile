@@ -1,7 +1,7 @@
 node {
     checkout scm
 
-    docker.withRegistry('https://registry.hub.docker.com', 'armor') {
+    docker.withRegistry('https://registry.hub.docker.com', 'unicornppp') {
 
         def customImage = docker.build("linish20/node-web-app")
 
